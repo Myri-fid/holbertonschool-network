@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
-sudo netstat -tulnp | grep LISTEN
+#lists all active listening sockets
+netstat -tulnp | grep LISTEN
